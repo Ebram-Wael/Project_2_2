@@ -11,7 +11,7 @@ Handwritten digit recognition is a fundamental computer vision problem. In this 
 ## 🧠 Features
 
 * **Data Preprocessing:** 
-  Image resizing, normalization, and dataset splitting.
+  Image resizing, normalization, dataset splitting, and image degradation for robust learning.
 
 * **CNN Architecture:** 
   A deep learning model built using TensorFlow / Keras.
@@ -24,6 +24,16 @@ Handwritten digit recognition is a fundamental computer vision problem. In this 
 
 * **Inference:** 
   Predict Arabic handwritten digits from unseen images.
+
+---
+
+## 🖼️ Image Degradation Example
+
+Example of an original handwritten digit image and its degraded version after applying noise during preprocessing.
+
+![Original vs Noisy](code/reports/bad,origin.png)
+
+
 
 ---
 
